@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <rg-gauge-chart
+    [canvasWidth]="canvasWidth"
+    [needleValue]="temperaturaInt"
+    [centralLabel]="centralLabel"
+    [options]="options"
+    name="Temperatura"
+    [bottomLabel]="temperatura"
+  ></rg-gauge-chart>
+
+  <rg-gauge-chart
+    [canvasWidth]="canvasWidth"
+    [needleValue]="umidadeInt"
+    [centralLabel]="centralLabel"
+    [options]="options"
+    name="Umidade"
+    [bottomLabel]="umidade"
+  ></rg-gauge-chart>
+  Temperatura: {{ temperatura }}<br />
+  Umidade: {{ umidade }}
+</div>
