@@ -1,0 +1,12 @@
+.title > h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.container-fluid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3em;
+}
